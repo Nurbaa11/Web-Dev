@@ -15,10 +15,14 @@
         #addams {
             font-family : fantasy;
         }
+        body {
+        font-family: monospace;
+}
+
         </style>
     </head>
     <body>
-    
+
     <p>Some fun theme songs of well known TV families...</p>
     
     <h4>The Flinstones</h4>
