@@ -1,1 +1,15 @@
-
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; }
+.container { width: min(720px, 92%); margin: 24px auto; }
+.row { display: flex; gap: 10px; }
+input { flex: 1; padding: 10px; }
+button { padding: 10px 14px; cursor: pointer; }
+.list { list-style: none; padding: 0; margin-top: 16px; }
+.item {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; background: #fff; padding: 10px; border-radius: 8px;
+  margin-bottom: 10px;
+}
+.left { display: flex; align-items: center; gap: 10px; }
+.done { text-decoration: line-through; opacity: 0.6; }
+.sr-only { position: absolute; left: -9999px; }

@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>ToDo</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="container">
+    <h1>ToDo List</h1>
+  </header>
 
+  <main class="container">
+    <form id="todoForm" class="row">
+      <label class="sr-only" for="taskInput">New task</label>
+      <input id="taskInput" type="text" placeholder="New task" required />
+      <button type="submit">Add</button>
+    </form>
+
+    <ul id="taskList" class="list"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
