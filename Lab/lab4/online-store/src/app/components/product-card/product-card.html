@@ -1,0 +1,23 @@
+<div class="card">
+  <a class="img" [href]="product().link" target="_blank" rel="noreferrer">
+    <img [src]="product().image" [alt]="product().name">
+  </a>
+
+  <div class="body">
+    <h3 class="title">
+      <a [href]="product().link" target="_blank" rel="noreferrer">{{ product().name }}</a>
+    </h3>
+
+    <p class="desc">{{ product().description }}</p>
+
+    <div class="meta">
+      <span class="price">{{ product().price }} KZT</span>
+      <span class="rating">⭐ {{ product().rating }}</span>
+    </div>
+
+    <div class="actions">
+      <a class="btn" [href]="whatsappUrl" target="_blank" rel="noreferrer">WhatsApp</a>
+      <a class="btn" [href]="telegramUrl" target="_blank" rel="noreferrer">Telegram</a>
+    </div>
+  </div>
+</div>
