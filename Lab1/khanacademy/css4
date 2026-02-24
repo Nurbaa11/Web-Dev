@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Colorful creature</title>
+        
+        <style>
+        p{
+            color : rgb(26, 2, 26);
+        }
+        h1 {
+            color : rgb(171, 58, 171);
+        }
+        body {
+            background-color : rgb(176, 130, 176);
+        }
+        </style>
+        
+    </head>
+    <body>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/cat.png" alt ="cat" width = "203">
+        <h1>The coolest creature</h1>
+        
+        <p>The <em>Cat</em> is awesome because <strong>it has beautiful eyes</strong>.</p>
+        
+    </body>
+</html>
