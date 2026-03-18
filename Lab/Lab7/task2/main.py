@@ -4,17 +4,15 @@ from Animal import Animal
 
 def main():
     animal = Animal("Generic Animal", 5, "Gray")
-    dog = Dog("Buddy", 3, "Brown", "Labrador")
-    elephant = Elephant("Dumbo", 10, "Gray", 120)
+    dog = Dog("KBTU", 3, "Konyr", "Aktos")
+    elephant = Elephant("Kaban", 10, "Gray", 120)
 
-    # 2. Store in a list for Polymorphism
-    # We can treat them all as 'Animal' objects in this loop
     animals = [animal, dog, elephant]
 
     for a in animals:
-        print(a)           # Calls __str__ (Unique to each)
-        print(a.speak())   # Calls speak() (Polymorphism: "Woof" vs "Pawoooo")
-        print(a.eat())     # Calls base Animal method
+        print(a)           
+        print(a.speak())   
+        print(a.eat())     
         print("-" * 30)
 
     print(dog.fetch())
