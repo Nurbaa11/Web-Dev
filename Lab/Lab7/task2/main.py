@@ -4,8 +4,8 @@ from Animal import Animal
 
 def main():
     animal = Animal("Generic Animal", 5, "Gray")
-    dog = Dog("KBTU", 3, "Konyr", "Aktos")
-    elephant = Elephant("Kaban", 10, "Gray", 120)
+    dog = Dog("Aktos", 3, "Konyr", "Alabai")
+    elephant = Elephant("Pil", 10, "Gray", 120)
 
     animals = [animal, dog, elephant]
 
