@@ -1,0 +1,5 @@
+$kind: http-request
+name: get products in each category
+url: ""
+method: GET
+order: 4205557057251739

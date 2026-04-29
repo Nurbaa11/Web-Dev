@@ -1,0 +1,24 @@
+$kind: http-request
+name: create product
+url: http://127.0.0.1:8000/api/products/
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \        \"id\": 21,\r
+
+    \        \"name\": \"Iphone 199999\",\r
+
+    \        \"price\": 9.0,\r
+
+    \        \"description\": \"Very bad phone\",\r
+
+    \        \"count\": 100,\r
+
+    \        \"is_active\": true,\r
+
+    \        \"category\": 3\r
+
+    \    }"
+order: 1402472525890095

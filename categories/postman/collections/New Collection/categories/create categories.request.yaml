@@ -1,0 +1,8 @@
+$kind: http-request
+name: create categories
+url: http://127.0.0.1:8000/api/categories/
+method: POST
+body:
+  type: json
+  content: "{\r\n    \"name\" : \"random\"\r\n}"
+order: 467045749152085
